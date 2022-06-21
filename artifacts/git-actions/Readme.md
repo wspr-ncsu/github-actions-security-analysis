@@ -1,0 +1,3 @@
+# README
+
+This directory contains Mongo dump of workflows we collected from GitHub until November 2021. Since GitHub prevents uploading files larger than 100M, we split the final `workflows.bson.gz` file into multiple parts named `workflows.bson.gz.part-a*`. To split the gzip file we used default Linux tool `split`. More information about how to restore the original `workflows.bson.gz` file can be found here: https://linoxide.com/howto-split-a-gzip-file-in-linux/ 
