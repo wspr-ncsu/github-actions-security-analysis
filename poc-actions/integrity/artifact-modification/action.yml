@@ -1,0 +1,19 @@
+name: 'Artifact-modification'
+description: 'Modify the artifact'
+inputs:
+  token:  # id of input
+    description: 'Token'
+    required: false
+    default: ${{ github.token }}
+  repo:
+    description: 'Current repository'
+    required: false
+    default: ${{ github.repository }}
+  artifact-name:
+    description: 'name of the artifact to modify'
+    required: true
+    default: 'name'
+runs:
+  using: 'node12'
+  main: 'index.js'
+  post: 'post.js'

@@ -1,0 +1,6 @@
+name: 'Env-modification'
+description: 'Modifies the execution environment to impact other steps'
+runs:
+  using: 'node12'
+  main: 'index.js'
+  post: 'post.js'

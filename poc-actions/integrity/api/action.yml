@@ -1,0 +1,11 @@
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs:
+  token:  # id of input
+    description: 'GITHUB_TOKEN'
+    required: false
+    default: ${ secrets.GITHUB_TOKEN }
+runs:
+  using: 'node12'
+  main: 'index.js'
+  post: 'post.js'
