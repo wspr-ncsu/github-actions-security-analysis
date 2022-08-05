@@ -1,0 +1,31 @@
+{
+  "name": "effective-spork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ale0x78/effective-spork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ale0x78/effective-spork/issues"
+  },
+  "homepage": "https://github.com/Ale0x78/effective-spork#readme",
+  "dependencies": {
+    "@actions/exec": "^1.0.4",
+    "@actions/github": "^5.0.0",
+    "cheerio": "^1.0.0-rc.9",
+    "request": "^2.88.2",
+    "sync-request": "^6.1.0",
+    "yaml": "^1.10.2"
+  },
+  "devDependencies": {
+    "@actions/core": "^1.3.0"
+  }
+}

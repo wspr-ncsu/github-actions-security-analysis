@@ -1,0 +1,5 @@
+name: 'Workflow Health Checker'
+description: 'Analyzes all of the .yaml files in the repository for segments that might cause security vulnrabilities.'
+runs:
+  using: 'node12'
+  main: 'index.js'
