@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Koishybayev"
+    given-names: "Igibek"
+  - family-names: "Nahapetyan"
+    given-names: "Aleksandr"
+  - family-names: "Zachariah"
+    given-names: "Raima"
+  - family-names: "Muralee"
+    given-names: "Siddharth"
+  - family-names: "Reaves"
+    given-names: "Bradley"
+  - family-names: "Kapravelos"
+    given-names: "Alexandros"
+  - family-names: "Machiry"
+    given-names: "Aravind"
+title: "Characterizing the Security of GitHub CI Workflows"
+version: 1.0.0
+url: "https://github.com/wspr-ncsu/github-actions-security-analysis"
+preferred-citation:
+  type: proceedings
+  authors:
+  - family-names: "Koishybayev"
+    given-names: "Igibek"
+  - family-names: "Nahapetyan"
+    given-names: "Aleksandr"
+  - family-names: "Zachariah"
+    given-names: "Raima"
+  - family-names: "Muralee"
+    given-names: "Siddharth"
+  - family-names: "Reaves"
+    given-names: "Bradley"
+  - family-names: "Kapravelos"
+    given-names: "Alexandros"
+  - family-names: "Machiry"
+    given-names: "Aravind"
+  booktitle: "31st USENIX Security Symposium (USENIX Security 22)"
+  month: 8
+  start: 2747 # First page number
+  end: 2763 # Last page number
+  title: "31st USENIX Security Symposium (USENIX Security 22)"
+  published: "USENIX Association"
+  year: 2021
